@@ -5,7 +5,7 @@ Komorebic(cmd) {
     RunWait(format("komorebic.exe {}", cmd), , "Hide")
 }
 
-#q::Komorebic("close") ; close with windows q
+#c::Komorebic("close") ; close with windows q
 ; !m::Komorebic("minimize")
 
 ; Focus windows
@@ -13,12 +13,6 @@ Komorebic(cmd) {
 #Down::Komorebic("focus down")
 #Up::Komorebic("focus up")
 #Right::Komorebic("focus right")
-
-; Move windows
-#!+h::Komorebic("move left")
-#!+j::Komorebic("move down")
-#!+k::Komorebic("move up")
-#!+l::Komorebic("move right")
 
 
 ; Workspaces
