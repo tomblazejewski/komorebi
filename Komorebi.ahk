@@ -21,16 +21,6 @@ Komorebic(cmd) {
 #!+l::Komorebic("move right")
 
 
-; Resize
-!=::Komorebic("resize-axis horizontal increase")
-!-::Komorebic("resize-axis horizontal decrease")
-!+=::Komorebic("resize-axis vertical increase")
-!+_::Komorebic("resize-axis vertical decrease")
-
-; Manipulate windows
-!t::Komorebic("toggle-float")
-!f::Komorebic("toggle-monocle")
-
 ; Window manager options
 !+r::Komorebic("retile")
 !p::Komorebic("toggle-pause")
