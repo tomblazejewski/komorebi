@@ -21,14 +21,6 @@ Komorebic(cmd) {
 #!+l::Komorebic("move right")
 
 
-; Window manager options
-!+r::Komorebic("retile")
-!p::Komorebic("toggle-pause")
-
-; Layouts
-!x::Komorebic("flip-layout horizontal")
-!y::Komorebic("flip-layout vertical")
-
 ; Workspaces
 #1::Komorebic("focus-workspace 0")
 #2::Komorebic("focus-workspace 1")
