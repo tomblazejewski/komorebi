@@ -14,9 +14,6 @@ Komorebic(cmd) {
 #Up::Komorebic("focus up")
 #Right::Komorebic("focus right")
 
-#p::Komorebic("cycle-focus previous")
-#n::Komorebic("cycle-focus next")
-
 ; Move windows
 #!+h::Komorebic("move left")
 #!+j::Komorebic("move down")
